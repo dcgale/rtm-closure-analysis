@@ -1,0 +1,12 @@
+[project]
+name = "rtm-closure-analysis"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "geopandas",
+    "gtfs-kit",
+    "matplotlib",
+    "folium",
+    "jupyter",
+]
