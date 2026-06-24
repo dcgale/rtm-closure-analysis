@@ -82,9 +82,9 @@ Compare Bixi trips starting or ending within 500m of Gare Centrale (island-side 
 - Bixi is a noisy proxy: summer weather and tourism muddy year-over-year comparisons
 
 What better data would look like:
-- fare gate counts
+- Fare gate counts
 - RTL passenger loads
-- anonymised trip plan data
+- Anonymised trip plan data
 
 ---
 
