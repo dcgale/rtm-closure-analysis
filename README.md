@@ -81,7 +81,10 @@ Compare Bixi trips starting or ending within 500m of Gare Centrale (island-side 
 - The strategic scope question is answered in terms of RTL's intentions, not outcomes
 - Bixi is a noisy proxy: summer weather and tourism muddy year-over-year comparisons
 
-> What better data would look like: fare gate counts, RTL passenger loads, anonymised trip plan data.
+What better data would look like:
+- fare gate counts
+- RTL passenger loads
+- anonymised trip plan data
 
 ---
 
