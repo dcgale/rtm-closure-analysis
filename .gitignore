@@ -1,1 +1,8 @@
-./data/**
+# system
+.DS_Store
+
+# virtual environment
+.venv/
+
+# data
+data/
