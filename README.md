@@ -43,6 +43,7 @@ This notebook uses open GTFS data from the RTL to assess the shuttle system on b
 ## Notebook Structure
 
 ### 1. Data setup
+
 Load GTFS feeds. Define the closure window (July 5 - August 17, 2025) and the comparison period (same dates in 2024).
 
 ### 2. Establishing a baseline understanding
@@ -61,7 +62,7 @@ Extract replacement services from the mid-closure GTFS feed and profile two alte
 
 ### 4. What the data can and can't tell us
 
-What was learned. See [the analysis notebook](./analysis.ipynb##4-what-the-data-can-and-can't-tell-us) for a full set of conclusions and insights around limitations.
+See [the analysis notebook](./analysis.ipynb##4-what-the-data-can-and-can't-tell-us) for a full set of conclusions and insights around limitations.
 
 ---
 
