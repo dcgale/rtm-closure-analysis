@@ -1,5 +1,6 @@
 <p align="center">
-    <img src="assets/Maquette-du-REM-au-DIX30-Miniature.jpg" alt="Cute but ironic maquette">
+    <img src="assets/Maquette-du-REM-au-DIX30-Miniature.jpg" alt="Cute but ironic maquette"><br>
+    <em>Image courtesy of the REM and illustrator/muralist Vincent Toutou</em>
 </p>
 
 # Eight Weeks Without the REM: An Analysis of Open Data
