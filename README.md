@@ -24,10 +24,9 @@ This notebook uses open GTFS data from the RTL to assess the shuttle system on b
 
 ### Secondary question: *strategic scope*
 
-- Did the RTL anticipate demand for the replacement network
-Specifically, did they increase frequency on the bus routes during the
-closure window relative to baseline (a scheduling decision visible in
-the GTFS feeds, and a meaningful proxy for expected demand)?
+- Did the RTL anticipate demand for the replacement network? What can we glean about their operational strategy?
+  - Specifically, did they increase frequency on the bus routes during the closure window relative to baseline?
+  - Which buses at which nodes were changed?
 
 ---
 
@@ -48,7 +47,7 @@ Load GTFS feeds. Define the closure window (July 5 - August 17, 2025) and the co
 
 ### 2. Establishing a baseline understanding
 
-Extract normal REM service from the pre-closure GTFS feed. Profile the route: stops, scheduled headways, and end-to-end travel time (Brossard to Gare Centrale).
+Extract normal REM service from the pre-closure GTFS feed. Profile the route: stops, scheduled headways and end-to-end travel time (Brossard to Gare Centrale).
 
 > A note on "headways", for those unfamiliar: a headway is the measurement of time interval between consecutive vehicles (such as a bus or train) traveling along the same route. This notebook refers to them a lot.
 
@@ -61,21 +60,8 @@ Extract replacement services from the mid-closure GTFS feed and profile two alte
 **Longueuil metro bus routes:** RTL routes serving Longueuil–Université-de-Sherbrooke (Yellow Line). Did RTL increase scheduled frequency during the closure relative to baseline? A frequency increase is visible in the GTFS feeds and would indicate the agency anticipated demand for the traditional bus/metro path as a bypass to the shuttle.
 
 ### 4. What the data can and can't tell us
-- GTFS captures scheduled service, not actual real-time operations or ridership
-- The strategic scope question is answered in terms of RTL's intentions, not outcomes
 
-What better data would look like:
-- Fare gate counts
-- RTL passenger loads
-- Anonymised trip plan data
-
----
-
-## Key limitations
-
-- GTFS only reflects scheduled service, not actual operations (if a bus is stuck in traffic or edge cases where a bus breaks down, etc). On-the-ground reliability during the closure (traffic variance, bus bunching) is not captured.
-- The secondary question is answerable from GTFS, but a frequency increase only confirms RTL planned for demand, not that riders actually used those routes.
-- No ridership denominator: without REM or shuttle passenger counts, modal shift rates cannot be calculated, only directional signals.
+What was learned. See [the analysis notebook](./analysis.ipynb##4-what-the-data-can-and-can't-tell-us) for a full set of conclusions and insights around limitations.
 
 ---
 
@@ -91,8 +77,7 @@ uv run jupyter notebook
 
 Anthropic's Claude Sonnet 4.6 was used for:
 - general planning
-- clarifying wording
-- code questions and suggestions
+- code review
 - generating boilerplate code (cell output formatting, etc.).
 
 All code was either written by the author or carefully reviewed and validated by the author prior to use.
