@@ -1,3 +1,4 @@
+![alt text](assets/Maquette-du-REM-au-DIX30-Miniature.jpg)
 # Eight Weeks Without the REM: An Analysis of Open Data
 
 When the REM suspended service between Brossard and Gare Centrale from July 5 to August 17 2025, the RTL (Réseau de transport de l'agglomération de Longueuil) put a shuttle bus network in place for the sake of service continuity.
